@@ -1,7 +1,6 @@
 import pygame
 from checkers.game import Game
-from checkers.constants import HEIGHT,WIDTH,SQUARE_SIZE, DARK_BROWN , LIGHT_WHITE
-from checkers.board import Board
+from checkers.constants import HEIGHT,WIDTH,SQUARE_SIZE, LIGHT_WHITE
 from minimax.algorithm import minimax
 
 FPS = 60
